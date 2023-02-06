@@ -1,0 +1,117 @@
+.sofa-img {
+    min-width: 100px;
+    min-height: 400px;
+    background-color: rgba(0, 0, 0, 0.18);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.sofa-img-mini {
+
+    min-height: 200px;
+    max-width: 260px;
+    background-color: rgba(0, 0, 0, 0.18);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sofa-details {
+    background-color: rgb(255, 255, 255);
+ 
+
+}
+
+.sofa-title {
+    font-weight: 200;
+}
+
+.sofa-option-title {
+    font-weight: 300;
+}
+
+.sofa-data-text {
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(93, 93, 93);
+}
+
+.fabric-img{
+    width: 40px;
+    height: 40px;
+    transition: 1s ease;
+}
+.fabric-img:hover{
+   transform: scale(2);
+}
+
+
+.stock-circule {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transition: .7s ease;
+}
+
+.stock-circule:hover {
+    transform: scale(1.05);
+}
+
+.stock-circule-text {
+    font-weight: bold;
+}
+
+.price-text {
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(1, 212, 1);
+}
+
+.buy-now-btn {
+    width: 155px;
+    height: 55px;
+    border-radius: 10px;
+    transition: .7s ease;
+}
+
+.buy-now-btn:hover {
+    transform: scale(1.1);
+}
+
+.buy-now-btn-text {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+
+.add-wish-btn {
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid;
+    transition: .7s ease;
+    padding: 13px;
+}
+.add-wish-btn:hover{
+    transform: scale(1.1);
+}
+
+.add-wish-btn-icon {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}
+
+.quantity-icon{
+
+transition: .5s ease;
+}
+.quantity-icon:hover{
+    color:blue;
+transform: scale(1.2);
+font-weight: bold;
+}

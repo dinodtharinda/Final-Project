@@ -1,0 +1,136 @@
+@media (max-width:768px) {
+    .carousel-item {
+        height: 50vh !important;
+    }
+
+    .main-title-div {
+        display: none !important;
+    }
+
+    .see-more-btn {
+        display: none !important;
+    }
+
+    .category-image {
+        width: 100vw;
+        height: 100vw;
+        margin: 10px;
+
+    }
+
+
+    .category-image:hover {
+        transform: scale(1);
+
+    }
+
+    h2.strikearound {
+        position: relative;
+        font-size: 2vh;
+        z-index: 1;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    h2.strikearound:before,
+    h2.strikearound:after {
+        position: absolute;
+        top: 51%;
+        overflow: hidden;
+        width: 50%;
+        height: 1px;
+        content: '\a0';
+        background-color: grey;
+    }
+
+    h2.strikearound:before {
+        margin-left: -50%;
+        text-align: right;
+    }
+
+    .desing-steps {
+        width: 90vw;
+        background-color: rgba(0, 0, 0, 0.529);
+        border-radius: 20px;
+        margin: 2vw;
+        transition: transform .7s ease;
+        align-self: flex-start;
+    }
+
+    .image-background-overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(167, 167, 167, 0.295);
+        padding-left: 0vh;
+        padding-right: 0vh;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        transition: transform .5s ease;
+    }
+
+    .desing-steps:hover {
+        transform: scale(1);
+    }
+
+    .step-img {
+        width: 100%;
+        max-height: fit-content;
+    }
+
+    .step-title {
+
+        margin: 0px;
+        font-size: 2vh;
+        margin-top: 10px;
+        color: rgb(164, 164, 164);
+
+    }
+
+    .step-description {
+        margin-left: 0px;
+        font-size: 1.8vh;
+        font-weight: 300;
+        color: white;
+        text-align: justify;
+    }
+
+    .step-div {
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .product-div {
+        flex: none;
+        flex-direction: column;
+
+    }
+
+    .product-card {
+        height: 80vw;
+        width: 90%;
+        padding: 0;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+
+    .icon {
+        display: none;
+    }
+
+    .bottom-nav {
+    display: inline;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .icon {
+        display: none;
+    }
+
+    .bottom-nav {
+    display: inline;
+    }
+
+}
